@@ -1,0 +1,57 @@
+.nome{
+
+  background-color: #3b003b;
+  text-align: center;
+  font-family:Courier;
+  font-size: 30px;
+  color: white;
+}
+
+header {
+  background-color: #9b8c43;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .ativo {
+    display: none;
+  }
+}
+
+main {
+  background-color: #fcfcfc;
+  padding: var(--padding);
+}
+:root {
+  --primary: #3b003b;
+  --secondary: #132A13;
+  --padding: 15px;
+  --cinza : #405040;
+  --cinza-claro: #dedede;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  padding: 30px;
+  margin: 0 auto;
+}

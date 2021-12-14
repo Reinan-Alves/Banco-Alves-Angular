@@ -1,0 +1,20 @@
+<section class="container">
+
+  <form class="formulario"(ngSubmit)="depositar()">
+      <h2 class="formulario_titulo">Depósito</h2>
+
+      <div class="form-field">
+        <label class="form-field_label" for="valor">Valor</label>
+        <input class="form-field_input" id="valor" type="number" name="valor"[(ngModel)]="valor" >
+      </div>
+
+      <div class="form-field">
+        <label class="form-field_label" for="destino">Destino</label>
+        <input readonly="readonly" name="destino" class="form-field_input" value="Sua Conta do Banco Alves">
+      </div>
+
+      <div class="botao-wrapper">
+      <button class="botao">Depositar</button>
+    </div>
+    </form>
+  </section>
